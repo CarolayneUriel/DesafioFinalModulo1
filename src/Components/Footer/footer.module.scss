@@ -1,0 +1,35 @@
+Footer{
+    height: 20vh;
+    color: #FFFF;
+}
+
+.boxContatos{
+    background-color: #005695;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 13.17vh;
+    padding:  50px 60px;
+
+    nav{
+        width: 17vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    
+}
+.boxCreditos{
+    background-color: #232020;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+
+}

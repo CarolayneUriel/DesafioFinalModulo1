@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.boxImagem{
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; 
+
+    p{
+        width: 18vw;
+        color: #FFFF;
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 700;
+        margin-left: 200px;
+
+    }
+}
+
+.sectionPrincipal{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.boxConteudo{
+    width: 90vw;
+    
+    h3{
+        color: #005695;
+        font-size: 40px;
+        font-weight: 500;
+        
+    }
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
