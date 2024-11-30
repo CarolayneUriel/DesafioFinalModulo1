@@ -1,5 +1,5 @@
 import S from './inicio.module.scss'
-import Card from '../../components/Card/Card'
+import Card from '../../Components/Card/Card'
 import Community from '../../assets/community.png' 
 import Reading from '../../assets/reading.png'
 import Tranform from '../../assets/transform.png'
