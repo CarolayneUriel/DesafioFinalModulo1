@@ -6,13 +6,34 @@
     align-items: center;
     border-radius: 15px;
     height: 35.23vh;
-    width: 18vw;
+    width: 20vw;
 
     p{
         text-align: center;
         width: 12vw;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
 
     }
+
+    @media(max-width: 1190px){
+        p{
+            font-size: 1.4vw;
+        }
+    }
+
+    @media(max-width: 860px){
+        width: 19vw;
+        
+    }
+
+    @media(max-width: 760px){
+        width: 200px;
+        height: 33vh;
+        p{
+           font-size: 12px; 
+        }
+        
+    }
 }
+    

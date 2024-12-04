@@ -21,7 +21,7 @@ export default function Header(){
                 </section>
 
                 <nav>
-                    <ul>
+                    <ul className={S.boxMenu}>
                         <li><Link to='/'>Inicio</Link></li>
                         <li><Link to='/doados'>Livros Doados</Link></li>
                         <li><Link to='/queroDoar'>Quero Doar</Link></li>

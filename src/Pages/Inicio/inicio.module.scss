@@ -18,6 +18,15 @@
         margin-left: 200px;
 
     }
+
+    @media(max-width: 815px){
+        justify-content: center;
+        p{
+            width: 65%;
+            margin-left: 0;
+            text-align: center;
+        }
+    }
 }
 
 .sectionPrincipal{
@@ -26,7 +35,10 @@
     align-items: center;
     justify-content: space-evenly;
 
-
+    @media(max-width: 760px){
+        height: auto;
+        
+    }
 }
 
 .boxConteudo{
@@ -38,6 +50,12 @@
         font-weight: 500;
         
     }
+
+    @media(max-width: 760px){
+        h3{
+           text-align: center;
+        }
+    }
 }
 
 .conteiner{
@@ -45,4 +63,17 @@
     justify-content: space-evenly;
     align-items: center;
     height: 60vh;
+
+    @media(max-width: 760px){
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    @media(max-width: 477px){
+        img{
+            height: 14vw;
+        }
+    }
 }
