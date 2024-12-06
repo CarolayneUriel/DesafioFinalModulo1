@@ -31,9 +31,17 @@
         width: 200px;
         height: 33vh;
         p{
-           font-size: 12px; 
+           font-size: 13px; 
+           width: 22vw;
         }
         
+    }
+
+    @media(max-width: 460px){
+        p{
+            font-size: 13px; 
+            width: 28vw;
+         }
     }
 }
     

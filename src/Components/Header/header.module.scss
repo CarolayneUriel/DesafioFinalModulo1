@@ -73,6 +73,12 @@ header{
       }
     }
 
+    @media(max-width:560px){
+      a{
+        font-size: 3.5vw;
+      }
+    }
+
 }
 
 .barraDeBusca {
